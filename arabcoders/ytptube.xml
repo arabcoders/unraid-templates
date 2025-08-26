@@ -25,7 +25,7 @@
     </Branch>
     <Project>https://github.com/arabcoders/ytptube</Project>
     <Overview>A Web GUI for yt-dlp</Overview>
-    <WebUI>https://[IP]:[PORT:8081]</WebUI>
+    <WebUI>http://[IP]:[PORT:8081]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/arabcoders/unraid-templates/master/arabcoders/ytptube.xml
     </TemplateURL>
     <Icon>https://raw.githubusercontent.com/arabcoders/unraid-templates/master/arabcoders/images/ytptube.png</Icon>
