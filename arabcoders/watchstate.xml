@@ -36,7 +36,7 @@
             Description="The HTTP Port for WebUI and API access"
             Type="Port" Display="advanced" Required="true" Mask="false">8080
     </Config>
-    <Config Name="WatchState AppData" Target="/config" Default="/config"
+    <Config Name="WatchState AppData" Target="/config" Default="/mnt/user/appdata/watchstate/config"
             Mode="rw" Description="All application data will be stored in this path"
             Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
