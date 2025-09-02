@@ -35,11 +35,11 @@
             Type="Port" Display="advanced" Required="true" Mask="false">8081
     </Config>
 
-    <Config Name="Config Path" Target="/config" Default="/config"
+    <Config Name="Config Path" Target="/config" Default="/mnt/user/appdata/ytptube/config"
             Mode="rw" Description="All application data will be stored in this path"
             Type="Path" Display="always" Required="true" Mask="false"/>
 
-    <Config Name="Downloads Path" Target="/downloads" Default="/downloads"
+    <Config Name="Downloads Path" Target="/downloads" Default="/mnt/user/appdata/ytptube/downloads"
             Mode="rw" Description="This directory will be used as base for downloads."
             Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
